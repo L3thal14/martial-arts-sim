@@ -1,0 +1,328 @@
+body {
+  background: #222;
+}
+.clear {
+  clear: both;
+}
+.container {
+  margin: 0;
+  width: 450px;
+}
+.left_hand {
+  width: 120px;
+  height: 260px;
+  background: black;
+  float: left;
+  transform: rotate(11deg);
+  border-radius: 20% 40% 40% 40%;
+  margin-top: 15px;
+}
+.left_pad {
+  background: black;
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  margin: 5px 0 0 10px;
+  box-shadow: 0 0 20px #464647;
+}
+
+.fleche_dir_top {
+  width: 22px;
+  height: 24px;
+  background: black;
+  position: relative;
+  top: 18px;
+  left: 40px;
+  transform: rotate(-11deg);
+  box-shadow: 0 0 10px #464647;
+}
+
+.fleche_dir_bottom {
+  width: 22px;
+  height: 24px;
+  background: black;
+  position: relative;
+  top: 50px;
+  left: 51px;
+  transform: rotate(-11deg);
+  box-shadow: 0 0 10px #464647;
+}
+
+.fleche_dir_right {
+  width: 24px;
+  height: 22px;
+  background: black;
+  position: relative;
+  top: -6.5px;
+  left: 72px;
+  transform: rotate(-11deg);
+  box-shadow: 0 0 10px #464647;
+}
+
+.fleche_dir_left {
+  width: 24px;
+  height: 22px;
+  background: black;
+  position: relative;
+  top: -18px;
+  left: 17px;
+  transform: rotate(-11deg);
+  box-shadow: 0 0 10px #464647;
+}
+.right_hand {
+  width: 120px;
+  height: 260px;
+  background: black;
+  float: left;
+  transform: rotate(-11deg);
+  border-radius: 20% 20% 40% 40%;
+  margin: 15px 0 0 210px;
+}
+
+.right_pad {
+  background: black;
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #464647;
+  margin-top: 2px;
+}
+.middle {
+  width: 395px;
+  background: black;
+  height: 160px;
+  margin-left: 27px;
+  border-radius: 15%;
+}
+
+.pave_tactile {
+  width: 150px;
+  height: 90px;
+  background: black;
+  margin-left: 152px;
+  box-shadow: 0 0 10px #464647;
+  border-radius: 7px;
+  position: absolute;
+}
+
+.share {
+  width: 12px;
+  height: 25px;
+  position: absolute;
+  background: black;
+  margin: 5px 0 0 130px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #464647;
+}
+
+.options {
+  width: 12px;
+  height: 25px;
+  position: absolute;
+  background: black;
+  margin: 5px 0 0 310px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #464647;
+}
+
+.triangle {
+  width: 30px;
+  height: 30px;
+  box-shadow: 0 0 10px #464647;
+  position: absolute;
+  border-radius: 50%;
+  margin: 7px 0 0 49px;
+}
+.triangle_bas {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  margin: 27px 0 0 50px;
+  transform: rotate(11deg);
+  border-top: 2px solid #00c081;
+}
+
+.triangle_droit {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin: 14px 0 0 51px;
+  transform: rotate(67deg);
+  border-top: 2px solid #00c081;
+}
+
+.triangle_gauche {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin: 15px 0 0 56px;
+  transform: rotate(-46deg);
+  border-top: 2px solid #00c081;
+}
+.croix {
+  width: 30px;
+  height: 30px;
+  box-shadow: 0 0 10px #464647;
+  position: absolute;
+  border-radius: 50%;
+  margin: 70px 0 0 36px;
+}
+
+.carre_rose {
+  width: 15px;
+  height: 15px;
+  margin: 5px 0 0 6px;
+  transform: rotate(11deg);
+  border: 2px solid #e95ce9;
+}
+
+.carre {
+  width: 30px;
+  height: 30px;
+  box-shadow: 0 0 10px #464647;
+  position: absolute;
+  border-radius: 50%;
+  margin: 32px 0 0 10px;
+}
+
+.rond_rouge {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  transform: rotate(11deg);
+  border: 2px solid #ff3746;
+  margin: 4px 0 0 4px;
+}
+
+.rond {
+  width: 30px;
+  height: 30px;
+  box-shadow: 0 0 10px #464647;
+  position: absolute;
+  border-radius: 50%;
+  margin: 44px 0 0 74px;
+}
+
+.croix_bleue {
+  width: 24px;
+  height: 24px;
+  transform: rotate(53deg);
+  border-right: 2px solid #0a86e5;
+  margin: -7px 0 0 -5px;
+}
+
+.croix_bleue_bis {
+  width: 24px;
+  height: 24px;
+  transform: rotate(-32deg);
+  border-right: 2px solid #0a86e5;
+  margin: -8px 0 0 -8px;
+}
+.roll_left {
+  width: 80px;
+  height: 80px;
+  background: black;
+  box-shadow: 0 0 10px #464647;
+  position: absolute;
+  border-radius: 50%;
+  left: -204px;
+  margin-top: -75px;
+}
+
+.roll_right {
+  width: 80px;
+  height: 80px;
+  background: black;
+  box-shadow: 0 0 10px #464647;
+  position: absolute;
+  border-radius: 50%;
+  left: -73px;
+  margin-top: -51px;
+}
+
+.roll_in {
+  width: 60px;
+  height: 60px;
+  background: #0c0d0e;
+  box-shadow: 0 0 10px #464647;
+  position: absolute;
+  border-radius: 50%;
+  left: 11px;
+  margin-top: 10px;
+}
+
+.roll_in_in {
+  width: 45px;
+  height: 45px;
+  background: #0c0d0e;
+  box-shadow: 0 0 7px #464647;
+  position: absolute;
+  border-radius: 50%;
+  left: 7px;
+  margin-top: 7px;
+}
+
+.ps {
+  width: 23px;
+  height: 23px;
+  background: #0d0d0e;
+  box-shadow: 0 0 7px #464647;
+  position: absolute;
+  border-radius: 50%;
+  left: -110px;
+  margin-top: -37px;
+}
+
+.glowround {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glowround 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glowround {
+  from {
+    box-shadow: 0 0 10px #ff3746, 0 0 20px #ff3746, 0 0 30px #ff3746,
+      0 0 40px #ff3746, 0 0 50px #ff3746, 0 0 60px #ff3746, 0 0 70px #ff3746;
+  }
+}
+.glowsquare {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glowsquare 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glowsquare {
+  from {
+    box-shadow: 0 0 10px #e95ce9, 0 0 20px #e95ce9, 0 0 30px #e95ce9,
+      0 0 40px #e95ce9, 0 0 50px #e95ce9, 0 0 60px #e95ce9, 0 0 70px #e95ce9;
+  }
+}
+
+.glowtriangle {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glowtriangle 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glowtriangle {
+  from {
+    box-shadow: 0 0 10px #00c081, 0 0 20px #00c081, 0 0 30px #00c081,
+      0 0 40px #00c081, 0 0 50px #00c081, 0 0 60px #00c081, 0 0 70px #00c081;
+  }
+}
+.glowcross {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glowcross 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glowcross {
+  from {
+    box-shadow: 0 0 10px #0a86e5, 0 0 20px #0a86e5, 0 0 30px #0a86e5,
+      0 0 40px #0a86e5, 0 0 50px #0a86e5, 0 0 60px #0a86e5, 0 0 70px #0a86e5;
+  }
+}
